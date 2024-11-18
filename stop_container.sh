@@ -2,5 +2,5 @@
 set -e
 
 # Stop the running container (if any)
-docker stop python-app:latest
+sudo docker stop rashikasahu/python-app:latest
 
