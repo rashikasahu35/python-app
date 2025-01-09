@@ -2,4 +2,6 @@
 set -e
 
 # Stop the running container (if any)
-echo "hi"
+sudo docker stop python-app
+sudo docker rm python-app
+
