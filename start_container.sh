@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-
 # Pull the Docker image from Docker Hub
 do
 docker pull rashikasahu/python-app:latest
